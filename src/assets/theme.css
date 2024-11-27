@@ -1,0 +1,29 @@
+:root {
+  --primary-color: #1e90ff;
+  --secondary-color: #ff2c68;
+  --background-color: #f5f5f5;
+  --font-color: #282828;
+  --font-family: 'Gotham', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+  color: var(--font-color);
+}
